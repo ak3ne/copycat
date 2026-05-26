@@ -1,0 +1,38 @@
+{
+  "name": "@copycat/cli",
+  "version": "0.1.0",
+  "description": "Snapshot and restore your Claude Code brain (skills, agents, memory, settings) across machines via any cloud folder you already have — iCloud, Dropbox, Google Drive, or a plain path.",
+  "type": "module",
+  "bin": {
+    "copycat": "./bin/copycat.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "anthropic",
+    "backup",
+    "restore",
+    "migration",
+    "dotfiles",
+    "icloud",
+    "dropbox",
+    "ai-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak3ne/copycat.git"
+  },
+  "homepage": "https://github.com/ak3ne/copycat#readme",
+  "bugs": "https://github.com/ak3ne/copycat/issues",
+  "license": "MIT",
+  "author": "copycat contributors"
+}
