@@ -75,7 +75,7 @@ copycat status                Show current config + snapshot freshness + schedul
 {
   "schemaVersion": 1,
   "snapshotDir": "<your-cloud-folder>/copycat-snapshot",
-  "include": [".claude/agents", ".claude/commands", "..."],
+  "include": [".claude/agents", ".claude/.agents", ".claude/commands", "..."],
   "exclude": [".claude/plugins", ".claude/cache", "..."],
   "includeMemory": true,
   "includeDotfiles": true,
